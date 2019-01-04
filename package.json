@@ -1,0 +1,34 @@
+{
+  "name": "zack9433",
+  "version": "1.0.0",
+  "description": "Contact Information for Zack Yang",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "bin": {
+    "zack9433": "./index.js"
+  },
+  "files": [
+    "bin/output"
+  ],
+  "scripts": {
+    "postinstall": "node ./index.js",
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zack9433/zack9433"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Zack Yang",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "boxen": "2.1.0",
+    "chalk": "2.4.1"
+  }
+}
